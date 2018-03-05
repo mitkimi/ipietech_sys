@@ -1,11 +1,11 @@
 {
-  "name": "vue2-element",
+  "name": "ipietech_sys",
   "version": "1.0.0",
-  "description": "本工程主要基于vue + vuex + less + ES6/7 + webpack + fetch + vue-router + store + element-ui实现的SPA后台管理系统模板",
-  "author": "sosout <sosout@139.com>",
+  "description": "sys.ipietech.net",
+  "author": "i@mitkimi.com",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "watch": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
