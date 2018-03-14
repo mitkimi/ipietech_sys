@@ -67,8 +67,7 @@
 <template>
   <div class="console-sidebar">
     <el-menu :unique-opened='true' :router='true' theme="dark" :default-active="defaultActive" class="sidebar-content">
-      <div class="sidebar-fold">版本1.0.0</div>
-      <el-menu-item index="/quick"><i class="el-icon-message"></i>快速入门</el-menu-item>
+      <el-menu-item index="/dashboard"><i class="el-icon-message"></i>控制台</el-menu-item>
       <el-submenu index="base">
         <template slot="title">
           <i class="el-icon-message"></i>

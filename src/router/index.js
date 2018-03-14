@@ -4,7 +4,7 @@ const Login = r => require.ensure([], () => r(require('../page/user/login')), 'l
 const Layout = r => require.ensure([], () => r(require('../page/layout')), 'layout');
 
 // 快速入门
-const Quick = r => require.ensure([], () => r(require('../page/quick/quick')), 'quick');
+const Dashboard = r => require.ensure([], () => r(require('../page/dashboard/dashboard')), 'dashboard');
 // 基础服务 -- 三级菜单 -- 文章管理
 const Article = r => require.ensure([], () => r(require('../page/base/thrmenu/article')), 'article');
 // 基础服务 -- 三级菜单 -- 评论管理
@@ -41,11 +41,11 @@ export default [{
   name: 'Layout',
   component: Layout,
   children: [{ // 快速入门
-    path: '/quick',
-    name: 'Quick',
-    component: Quick,
+    path: '/dashboard',
+    name: 'Dashboard',
+    component: Dashboard,
     meta: {
-      bcrumd: ['快速入门']
+      bcrumd: ['控制台']
     }
   }, { // 基础服务 -- 三级菜单 -- 文章管理
     path: '/thrmenu/article',
